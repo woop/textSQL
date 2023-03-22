@@ -1,8 +1,7 @@
-import openai
+from smol import openai
 import re
 from typing import List, Dict
 from ...config import OPENAI_KEY
-
 
 openai.api_key = OPENAI_KEY
 
